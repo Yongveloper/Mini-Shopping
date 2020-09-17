@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="style.css">
+    <script src="main.js"></script>
     <title>Mini Shopping</title>
 </head>
 <body>
@@ -12,47 +13,15 @@
     <img src="imgs/logo.png" alt="Logo" class="logo" />
     <!-- Buttons -->
     <section class="buttons">
-    <button class="btn"><img src="imgs/blue_t.png" alt="tshirt" class="imgBtn" /></button>
-    <button class="btn"><img src="imgs/blue_p.png" alt="tshirt" class="imgBtn" /></button>
-    <button class="btn"><img src="imgs/blue_s.png" alt="tshirt" class="imgBtn" /></button>
-    <button class="btn blue colorBtn">blue</button>
-    <button class="btn yellow colorBtn">Yellow</button>
-    <button class="btn pink colorBtn">Pink</button>
+    <button class="btn"><img src="imgs/blue_t.png" alt="tshirt" class="imgBtn" data-key="type" data-value="tshirt"/></button>
+    <button class="btn"><img src="imgs/blue_p.png" alt="pants" class="imgBtn" data-key="type" data-value="pants"/></button>
+    <button class="btn"><img src="imgs/blue_s.png" alt="skirt" class="imgBtn" data-key="type" data-value="skirt"/></button>
+    <button class="btn blue colorBtn" data-key="color" data-value="blue">blue</button>
+    <button class="btn yellow colorBtn" data-key="color" data-value="yellow">Yellow</button>
+    <button class="btn pink colorBtn" data-key="color" data-value="pink">Pink</button>
     </section>
     <!-- Items -->
-    <ul class="items">
-        <li class="item">
-            <img src="imgs/blue_t.png" alt="tshirt" class="item__thumbnail" />
-            <span class="item__description">male, large</span>
-        </li>
-        <li class="item">
-            <img src="imgs/blue_t.png" alt="tshirt" class="item__thumbnail" />
-            <span class="item__description">male, large</span>
-        </li>
-        <li class="item">
-            <img src="imgs/blue_t.png" alt="tshirt" class="item__thumbnail" />
-            <span class="item__description">male, large</span>
-        </li>
-        <li class="item">
-            <img src="imgs/blue_t.png" alt="tshirt" class="item__thumbnail" />
-            <span class="item__description">male, large</span>
-        </li>
-        <li class="item">
-            <img src="imgs/blue_t.png" alt="tshirt" class="item__thumbnail" />
-            <span class="item__description">male, large</span>
-        </li>
-        <li class="item">
-            <img src="imgs/blue_t.png" alt="tshirt" class="item__thumbnail" />
-            <span class="item__description">male, large</span>
-        </li>
-        <li class="item">
-            <img src="imgs/blue_t.png" alt="tshirt" class="item__thumbnail" />
-            <span class="item__description">male, large</span>
-        </li>
-        <li class="item">
-            <img src="imgs/blue_t.png" alt="tshirt" class="item__thumbnail" />
-            <span class="item__description">male, large</span>
-        </li>        
+    <ul class="items">        
     </ul>
 </body>
 </html>

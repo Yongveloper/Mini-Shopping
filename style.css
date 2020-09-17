@@ -84,7 +84,7 @@ body {
     height: 60%;
     list-style: none;
     padding-left: 0;
-    overflow-y: scroll;
+    overflow-y: auto;
 }
 
 .item {    
@@ -92,7 +92,8 @@ body {
     display: flex;
     align-items: center;
     padding: var(--base-space);
-    margin-bottom: var(--base-space);    
+    margin-bottom: var(--base-space);  
+    border-radius: var(--size-border);  
 }
 
 .item__thumbnail {
