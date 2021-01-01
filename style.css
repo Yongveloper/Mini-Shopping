@@ -95,6 +95,10 @@ body {
   border-radius: var(--size-border);
 }
 
+.invisible {
+  display: none;
+}
+
 .item__thumbnail {
   width: var(--size-thumbnail);
   height: var(--size-thumbnail);
